@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CheckOut.Css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">Exclusive</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Giới Thiệu</a></li>
+                    <li><a href="#">Liên Hệ </a></li>
+                    <li><a href="#">Danh Mục</a></li>
+                </ul>
+            </nav>
+            <div class="search-cart">
+                <input type="text" placeholder="What are you looking for?">
+                <button class="cart-icon">🛒</button>
+            </div>
+        </div>
+        <div class="checkout-container">
+            <nav class="breadcrumb">
+              <a href="#">Account</a> / 
+              <a href="#">My Account</a> / 
+              <a href="#">Product</a> / 
+              <a href="#">View Cart</a> / 
+              <span>CheckOut</span>
+            </nav>
+        
+            <div class="billing-details">
+              <h2>Billing Details</h2>
+              <form>
+                <label for="first-name">First Name*</label>
+                <input type="text" id="first-name" name="first-name" required>
+        
+                <label for="company-name">Company Name</label>
+                <input type="text" id="company-name" name="company-name">
+        
+                <label for="street-address">Street Address*</label>
+                <input type="text" id="street-address" name="street-address" required>
+        
+                <label for="apartment">Apartment, floor, etc. (optional)</label>
+                <input type="text" id="apartment" name="apartment">
+        
+                <label for="town-city">Town/City*</label>
+                <input type="text" id="town-city" name="town-city" required>
+        
+                <label for="phone-number">Phone Number*</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+        
+                <label for="email-address">Email Address*</label>
+                <input type="email" id="email-address" name="email-address" required>
+        
+                <div class="save-info">
+                  <input type="checkbox" id="save-info" name="save-info">
+                  <label for="save-info">Save this information for faster check-out next time</label>
+                </div>
+              </form>
+            </div>
+        
+            <div class="order-summary">
+              <h2>Your Order</h2>
+              <div class="order-items">
+                <div class="item">
+                  <p>LCD Monitor</p>
+                  <p>$650</p>
+                </div>
+                <div class="item">
+                  <p>H1 Gamepad</p>
+                  <p>$1100</p>
+                </div>
+              </div>
+              <div class="summary">
+                <div class="subtotal">
+                  <p>Subtotal:</p>
+                  <p>$1750</p>
+                </div>
+                <div class="shipping">
+                  <p>Shipping:</p>
+                  <p>Free</p>
+                </div>
+                <div class="total">
+                  <p>Total:</p>
+                  <p>$1750</p>
+                </div>
+              </div>
+        
+              <div class="payment-method">
+                <p>Payment Method:</p>
+                <label><input type="radio" name="payment" value="bank"> Bank</label>
+                <label><input type="radio" name="payment" value="cod" checked> Cash on delivery</label>
+              </div>
+        
+              <div class="coupon">
+                <input type="text" placeholder="Coupon Code">
+                <button type="button">Apply Coupon</button>
+              </div>
+        
+              <button class="place-order">Place Order</button>
+            </div>
+          </div>
+    </header>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo and About Section -->
+            <div class="footer-section about">
+                <h3 class="logo">Exclusive</h3>
+                <p>
+                    Bringing you the best shopping experience with top-notch products and customer care. 
+                    Stay connected with us on social media for updates.
+                </p>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Giới Thiệu </a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                    <li><a href="#">Chăm Sóc Khách Hàng</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info -->
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>xóm 6, Phúc Thành, Yên Thành, Nghệ An.</li>
+                    <li><i class="fas fa-phone-alt"></i> 0365 252 737</li>
+                    <li><i class="fas fa-envelope"></i>hunglpph48998@gmail.com,</li>
+                </ul>
+            </div>
+    
+            <!-- Social Media -->
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>hunglpph48998@gamil.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
